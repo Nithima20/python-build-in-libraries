@@ -1,0 +1,9 @@
+#counting days between two date
+
+from datetime import datetime
+x=input("Enter the date in YYYY-MM-DD:")
+y=input("Enter the date in YYYY-MM-DD:")
+x1=datetime.strptime(x,"%Y-%m-%d")
+y1=datetime.strptime(y,"%Y-%m-%d")
+print("the number of days jamuna lived is ",y1-x1)
+
