@@ -1,0 +1,8 @@
+import qrcode
+x=qrcode.QRCode()
+msg="it"s me nithyasri"
+x.add_data(msg)
+x.make(fit=True)
+res=x.make_image(fill_color="black",back_color="White")
+res.save("nithya.png")
+print("Created successfully!!!")
