@@ -1,0 +1,7 @@
+from deep_translator import GoogleTranslator
+x=Translator()
+tex1=input("Enter any SEntence: ")
+tex2=input("Enter target language: ")
+res=x.GoogleTranslate(tex1,dest=tex2)
+print("Original Text: ", tex1)
+print("Tranalated text: ",res)
