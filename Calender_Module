@@ -1,0 +1,11 @@
+#calender display
+
+import calendar
+a=calendar.calendar(2026)
+print(a)
+
+#specific month display
+
+b=calendar.month(2026,2)
+print(b)
+
